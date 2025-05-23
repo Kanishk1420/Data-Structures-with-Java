@@ -105,6 +105,7 @@ class student {
         r.name = in.nextLine();
         System.out.println("Enter the cgpa of Student");
         r.cgpa = in.nextInt();
+        in.close();
     }
 }
 // 4. Aim of the program : Write a program to overload subtract method with various parameters in a class in Java. Write the driver class to use the different subtract methods using object.

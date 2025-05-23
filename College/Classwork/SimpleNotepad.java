@@ -4,7 +4,6 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import javax.swing.*;
-import javax.swing.event.*;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import java.io.FileReader;
 import java.io.BufferedReader;
