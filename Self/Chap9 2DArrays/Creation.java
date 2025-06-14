@@ -23,6 +23,15 @@ public class Creation {
    }
    return smallest;
    }
+   public static int largest(int arr[][]){
+    int largest = Integer.MIN_VALUE;
+    for (int i = 0; i < arr.length; i++) {
+      for (int j = 0; j < arr[0].length; j++) {
+        largest = Math.max(largest, arr[i][j]);
+      }
+    }
+    return largest;
+   }
    public static void main(String[] args) {
    int arr[][] = new int[3][3];
    Scanner sc = new Scanner(System.in);
@@ -41,7 +50,9 @@ public class Creation {
    }
    sc.close();
    search(arr, 3);
-   System.err.println("Smallest element in the array is "+smallest(arr));  
+   System.err.println("\n");
+   System.err.println("Smallest element in the array is "+smallest(arr));
+   System.out.println("Largest element in the array is "+largest(arr));  
    }
 }
 
