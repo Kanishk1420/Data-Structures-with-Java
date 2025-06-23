@@ -7,7 +7,7 @@ public class DetectCapital {
         else if (word.equals(word.toLowerCase())) {
             return true;
         }
-        else if (Character.isUpperCase(word.charAt(0)) && word.substring(1).equals(word.substring(1).toLowerCase())) {
+        else if (Character.isUpperCase(word.charAt(0)) && word.substring(1).toLowerCase().equals(word.substring(1).toLowerCase())) {
             return true;
         }
     }
