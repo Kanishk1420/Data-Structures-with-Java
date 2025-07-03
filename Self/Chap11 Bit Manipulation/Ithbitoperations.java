@@ -26,11 +26,19 @@ public class Ithbitoperations {
     public static void clearlastithbit(int n, int i){
         System.err.println(n & (-1<<i));
     }
+    public static void rangeithbit(int n, int i, int j){
+    int a = (-1<<j+1);
+    int b = 1<<i-1;
+    int bitmask = a|b;
+    System.err.println(n & bitmask);
+    
+    }
     public static void main(String[] args) {
         getith(15,2);
         setithbit(10, 2);
         clearithbit(15, 1);
         updateithbit(15, 1, 0);
         clearlastithbit(15, 2);
+        rangeithbit(10, 2, 4);
     }
 }
