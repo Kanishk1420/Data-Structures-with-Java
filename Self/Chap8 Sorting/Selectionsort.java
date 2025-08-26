@@ -1,12 +1,11 @@
 public class Selectionsort {
 public static void selection(int arr[]){
     boolean swap = false;
-    for (int i = 0; i < arr.length-2; i++) {
+    for (int i = 0; i < arr.length; i++) {
         int minpostion = i;
         for (int j = i+1; j < arr.length; j++) {
             if (arr[minpostion]>arr[j]) {
                 minpostion = j;
-                System.out.println(arr[minpostion]+""+arr[i]);
             }
         }
         int temp = arr[minpostion];
