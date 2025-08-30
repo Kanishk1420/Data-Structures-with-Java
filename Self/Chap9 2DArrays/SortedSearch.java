@@ -34,25 +34,25 @@ public class SortedSearch {
         return false;
     }
 
-    public static boolean columnbinarysearching(int matrix[][], int key) {
-        for (int i = 0; i < matrix[0].length; i++) {
-            int start = 0;
-            int end = matrix[0].length - 1;
-            while (start <= end) {
-                int mid = (start + end) / 2;
-                if (matrix[i][mid] == key) {
-                    System.err.println("Found at cell (" + i + "," + mid + ")");
-                    return true;
-                }
-                if (matrix[i][mid] < key) {
-                    start = mid + 1;
-                } else {
-                    end = mid - 1;
-                }
+   public static boolean columnbinarysearching(int matrix[][], int key) {
+    for (int j = 0; j < matrix[0].length; j++) {  
+        int start = 0;
+        int end = matrix.length - 1;  
+        while (start <= end) {
+            int mid = (start + end) / 2;
+            if (matrix[mid][j] == key) { 
+                System.err.println("Found at cell (" + mid + "," + j + ")");
+                return true;
+            }
+            if (matrix[mid][j] < key) {
+                start = mid + 1;
+            } else {
+                end = mid - 1;
             }
         }
-        return false;
     }
+    return false;
+}
 
     public static boolean staircase(int matrix[][], int key) {
         int row = 0;
