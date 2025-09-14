@@ -1,3 +1,4 @@
+// This problem can only pass 37 testcases in leetcode out of 44 but because of not overcomplexity of the problem i will only use this
 public class KConcatenationMaxSum {
     public static int kConcatenationMaxSum(int[] arr, int k) {
         int[] result = new int[arr.length * k];
