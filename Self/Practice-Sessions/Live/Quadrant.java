@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Quadrant {
  public static void main(String[] args) {
+    @SuppressWarnings("resource")
     Scanner sc = new Scanner(System.in);
     while (true) {
         System.out.println("Enter the X coordinate");
