@@ -23,3 +23,4 @@ class pen {
         tip = newtip;
     }
 }
+// This code is one of the example of Encapsulation.
