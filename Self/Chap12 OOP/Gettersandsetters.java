@@ -11,13 +11,13 @@ class pen {
     private String color;
     private int tip;
     String getColor(){
-        return this.color;
+        return this.color; // this keyword is used to refer to the current object.
     }
     int gettip(){
-        return this.tip;
+        return this.tip; // to return the value;
     }
     void setcolor(String newcolor){
-        color = newcolor;
+        color = newcolor; // to modify the value;
     }
     void settip(int newtip){
         tip = newtip;
