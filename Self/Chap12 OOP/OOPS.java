@@ -1,9 +1,10 @@
 public class OOPS {
     public static void main(String[] args) {
-        // public :- keyword (access specifer)
-        // static:- access modifier
+        // public :- keyword (access specifer) the main method can call it from outside the class to start the program.
+        // static: This is a keyword that allows the main method to be called without creating an instance (or object) of the class.
         // void:- keyword is used to give no return any value.
         // main:- main function starting.
+        // String[] args: This is the parameter passed to the main method. It is an array of Strings that allows you to pass arguments to your program from the command line. For example, if you run java MyApp arg1 arg2, the args array will contain ["arg1", "arg2"].
         Pen p1 = new Pen(); // Pen() is a constructor & created a pen object called p1
         p1.setcolor("Blue");
         System.out.println(p1.color);

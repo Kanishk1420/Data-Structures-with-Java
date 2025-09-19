@@ -1,4 +1,4 @@
-class Solution {
+public class SpecialArray {
     public static boolean isArraySpecial(int[] nums) {
     if(nums.length==1){
         return true;
