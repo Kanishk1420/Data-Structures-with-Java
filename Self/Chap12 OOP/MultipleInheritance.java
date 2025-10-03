@@ -6,7 +6,7 @@ public class MultipleInheritance {
         bear.hunts();
     }
     
-    interface Herbivore {
+    interface Herbivore { // its already abstracted
         void eats();
         void sleeps();
     }
