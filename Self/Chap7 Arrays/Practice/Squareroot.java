@@ -11,6 +11,6 @@ public class Squareroot {
     }
     public static void main(String[] args) {
       System.out.println(mySqrt(4));
-      System.out.println(isPerfectSquare(16)); 
+      System.out.println(isPerfectSquare(16));
     }
 }
