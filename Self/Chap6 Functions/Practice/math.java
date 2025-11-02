@@ -1,5 +1,3 @@
-package Practice;
-
 public class math {
     public static int min(int n){
         int a = 34;

@@ -1,5 +1,3 @@
-package Practice;
-
 public class Avg {
     public static int avg(int a, int b, int c){
      int d = a+b+c/3;

@@ -1,5 +1,3 @@
-package Practice;
-
 public class IsEven {
     public static boolean Iseven(int a){
     boolean even = false;

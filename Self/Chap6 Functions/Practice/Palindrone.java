@@ -1,5 +1,3 @@
-package Practice;
-
 public class Palindrone {
     public static boolean isPalindrome(int x) {
         if (x < 0) {

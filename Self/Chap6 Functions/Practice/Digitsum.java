@@ -1,5 +1,3 @@
-package Practice;
-
 public class Digitsum {
     public static void sum(int n){
         int sum = 0;
