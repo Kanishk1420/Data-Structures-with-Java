@@ -1,4 +1,4 @@
-public class Categorizebox {
+public class Categorize {
     public static String categorizeBox(int length, int width, int height, int mass) {
         long volume = (long)length*width*height;
         boolean isBulky = false;
