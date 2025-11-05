@@ -1,3 +1,4 @@
+// This is Normal String to Integer question as this code didnt able to solve too much edge cases problem
 public class StringtoInteger {
     public static int myAtoi(String s){
     s = s.trim();
