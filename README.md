@@ -1,6 +1,6 @@
 # Data Structures and Algorithms (DSA) & Java Foundations
 
-This repository contains resources and implementations for core DSA concepts and fundamental Java programming topics.
+This repository contains resources, and important questions for core DSA concepts and fundamental Java programming each topics.
 
 ## Completed Topics
 
@@ -29,7 +29,43 @@ This repository contains resources and implementations for core DSA concepts and
 - 2D Arrays
 - Strings
 
+### Bit Manipulation
+- Binary number system
+- Bitwise operators
+- Bit operations
+- Fast exponentiation
+
+### Object-oriented programming
+- Objects & Classes
+- Constructors and related concepts
+- Abstraction, Encapsulation
+- Inheritance, Polymorphism
+- Abstract classes
+- Interfaces
+
+### Recursion
+- Basics of Recursion
+- Recursive problems
+  - Factorial
+  - Fibonacci
+  - Power of a number
+  - Tower of Hanoi
+
+### Divide and Conquer
+- Introduction to Divide and Conquer
+- Merge Sort
+- Quick Sort
+
+### Time and Space Complexity
+- Big O Notation
+- Analyzing algorithms
+- Common complexities
+- Space complexity
+
 ### Linear Data Structures
+- Backtracking
+  - N-Queens Problem
+  - Sudoku Solver
 - ArrayLists
 - Linked lists
   - Insertion and deletion operations
@@ -72,26 +108,6 @@ This repository contains resources and implementations for core DSA concepts and
 - Segment Trees
   - Creation and range queries
 
-### Problem Solving Techniques
-- Recursion, Backtracking, Divide & Conquer
-  - Principle of mathematical induction
-  - Factorial, Fibonacci using recursion
-  - Recursion with arrays and strings
-  - 2D array recursion
-  - Merge sort and quick sort
-- Bit Manipulation
-  - Binary number system
-  - Bitwise operators
-  - Bit operations
-  - Fast exponentiation
-- Time & Space Complexity
-  - Order complexity analysis
-  - Theoretical complexity analysis
-  - Analysis of searching and recursive algorithms
-- Greedy Algorithms
-  - Introduction to greedy approach
-  - Classical problem solving
-
 ### Dynamic Programming
 - Fundamentals of DP
 - Memoization
@@ -100,115 +116,10 @@ This repository contains resources and implementations for core DSA concepts and
 - Edit distance
 - Matrix Chain Multiplication
 
-### Object-oriented programming
-- Objects & Classes
-- Constructors and related concepts
-- Abstraction, Encapsulation
-- Inheritance, Polymorphism
-- Abstract classes
-- Interfaces
-
-## Remaining Topics
-
-### Advanced Data Structures
-- **Trees (Advanced)**
-  - AVL Trees
-  - Red-Black Trees
-  - B-Trees
-
-- **Advanced Graph Algorithms**
-  - Network Flow
-  - Bipartite Matching
-  - Advanced Path Algorithms
-
-- **Advanced Data Structures**
-  - Disjoint Set Union (Union-Find)
-  - Fenwick Trees (Binary Indexed Trees)
-
-### Algorithms
-- **Advanced Sorting**
-  - RadixSort
-  - CountingSort optimization
-
-- **String Algorithms**
-  - KMP Algorithm
-  - Rabin-Karp
-  - Suffix Arrays and Trees
-  - String Matching
-
-### Advanced Java Concepts
-- **Object-Oriented Programming in Depth**
-  - Design patterns implementation
-
-- **Exception Handling**
-  - Custom exceptions
-  - Exception chaining
-  - Try-with-resources
-  - Best practices
-
-- **Java Collections Framework**
-  - Advanced collections usage
-  - Performance characteristics
-  - Custom implementations
-  - Collections utility methods
-  - Concurrent collections
-
-- **Generics**
-  - Type erasure
-  - Bounded type parameters
-  - Wildcards
-  - Generic methods and classes
-
-- **Multithreading and Concurrency**
-  - Thread lifecycle and states
-  - Synchronization mechanisms
-  - Locks and atomic variables
-  - Thread pools and executors
-  - CompletableFuture
-  - Fork/Join framework
-
-### Advanced Java
-- **Java I/O and NIO**
-  - File handling
-  - Serialization
-  - Non-blocking I/O
-  - Memory-mapped files
-
-- **Functional Programming**
-  - Lambda expressions
-  - Method references
-  - Functional interfaces
-  - Stream API advanced operations
-
-- **Reflection and Annotations**
-  - Dynamic class loading
-  - Metaprogramming
-  - Custom annotations
-  - Annotation processors
-
-- **Java Database Connectivity (JDBC)**
-  - Connection pooling
-  - Prepared statements
-  - Batch processing
-  - Transaction management
-
-- **Java APIs**
-  - Date and Time API
-  - Optional class
-  - Regular Expressions
-  - Internationalization
-
-## Implementation Projects
-- Graph algorithms visualizer
-- Dynamic programming problem solver
-- Custom data structure library
-- Multithreaded application examples
-- Design patterns showcase
-
 ## Learning Resources
 - Books
 - Online courses
-- Practice websites
+- Practice websites like LeetCode and Codeforces
 - Community forums
 
 ## Contributing
